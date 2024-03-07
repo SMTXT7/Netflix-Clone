@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Backkground1 from here */
+#background1{
+    height: 650px;
+    background-image: url(Randombg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    
+    
+}
+#logo{
+    height: 100px;
+    width: 350px;
+    background-color: transparent;
+    background-image: url(Netflix-Logo.png);
+    background-size: 45%;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    display: inline-block;
+
+
+}
+#Bsugnup{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+#signup:hover{
+    background-color: brown;
+}
+#signup{
+    height: 6%;
+    width: 6%;
+    position: absolute;
+    top: 4%;
+    right: 9%;
+    background-color: rgb(192, 21, 21);
+    border-radius: 7px;
+}
+#middle-text{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 40%;
+    left:32%;
+}
+#small-text{
+    font-size: 16px;
+}
+#text-email{
+    height: ;
+    display: flex;
+    margin-top: 25%;
+    justify-content: center;
+}
+#email-here{
+    height: 50px;
+    width: 350px;
+    padding-left: 15px;
+    border-radius: 7px;
+}
+#signin{
+   
+    height: 56px;
+    width: 90px;
+    background-color: rgb(192, 21, 21) ;
+    border-radius: 7px;
+}
+#sign-in-color{
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+/* background1 ends here */
+/* background2 from here */
+
+#background2{
+    background-color: black;
+    height: 550px;
+    color: white;
+    overflow: hidden;
+}
+h3{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 24px;
+}
+#Language{
+    height: 8%;
+    width: 300px;
+    position: absolute;
+    left: 50px;
+    padding-left: 10px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+}
+#boxes{
+    height: 350px;
+    width: 96%;
+    background-color: transparent;
+    position: absolute;
+    left: 2%;
+  
+}
+.box{
+    height: 300px;
+    width: 250px;
+    background-color: pink;
+    display: inline-block;
+    margin: 1px;
+   
+}
+#box1{
+    background-image: url(Box1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#box2{
+    background-image: url(Box2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#box3{
+    background-image: url(Box3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#box4{
+    background-image: url(Box4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#box5{
+    background-image: url(Box5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box:hover{
+    transform: scale(1.05);
+    transition-duration: 0.1s;
+}
+/* background2 ends here */
+/* footer begins here */
+#footer{
+    height: 500px;
+    background-color: black;
+    color: grey;
+    overflow: hidden;
+}
+#dk{
+    height: 100px;
+  
+}
+#question{
+    color: rgb(175, 172, 167);
+ position: absolute;
+ bottom: 90%;
+ left: 150px;
+}
+#anchortags{
+    height: 300px;
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Foottags{
+    padding-top: 100px;
+    color: rgb(175, 172, 167);
+    font-size: 14px;
+
+}
+ul{
+    list-style-type: none;
+}
+#cleckme{
+    color: rgb(175, 172, 167);
+    text-decoration: none;
+}
+
+
